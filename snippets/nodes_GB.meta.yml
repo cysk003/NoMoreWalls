@@ -9,17 +9,17 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: GB_speednode_0002
-  packet-encoding: xudp
-  port: 443
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: GB_speednode_0010
+  network: tcp
+  port: 49000
   reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '!!str 0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  skip-cert-verify: false
+    public-key: lKxU4TCjenarM3nQqOVPaVhaTo5QaDHmRlS40XdwzUk
+  server: defast.mifbot.pro
+  servername: git.sly.team
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
