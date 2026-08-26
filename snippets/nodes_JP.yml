@@ -1,8 +1,9 @@
 proxies:
-- name: 🇯🇵 日本|@ripaojiedian
+- name: 日本|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 16691
-  server: 95.40.27.43
+  port: 49811
+  server: 54.238.251.95
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -18,11 +19,3 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 49811
-  server: 54.238.251.95
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
