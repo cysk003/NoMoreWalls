@@ -1,22 +1,4 @@
 proxies:
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
-- name: 🇷🇺202915 | ⚡️Telegram = t.me/S...
-  password: 41edb44c8e
-  port: 11592
-  server: 103.88.243.142
-  skip-cert-verify: true
-  sni: 103.88.243.142
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029
